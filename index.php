@@ -15,7 +15,7 @@
             <section class="login">
                 <h1>WELCOME BACK! STUDENT</h1>
                 <h1>Sign in to your account</h1>
-                <button id="teacher_signin">Sign in as a Teacher</button>
+                <button id="teacher_signin" class="btn">Sign in as a Teacher</button>
                 <form action="" method="">
                     <!--<h1>Sign up</h1>-->
                     <label class="form-label" for="email">Email:</label>
@@ -24,7 +24,7 @@
                     <label for="password">Password:</label>
                     <p><input id="password" name="password" type="password" placeholder="minimum of 8 characters" pattern=".{8,}" required /></p>
                     <!--                input 1-->
-                    <input type="submit" value="Login">
+                    <input type="submit" class="btn" value="Login">
                     <p class="message"> Don't have an account? <a href="#" id="show_register">sign up here</a></p>
                 </form>
             </section>
@@ -78,7 +78,7 @@
                 <section class="login">
                     <h1> WELCOME BACK! TEACHER</h1>
                     <h1>Sign in to your account</h1>
-                    <button id="student_signin">Sign in as a Student</button>
+                    <button id="student_signin" class="btn">Sign in as a Student</button>
                     <form action="" method="">
                         <!--<h1>Sign up</h1>-->
                         <label for="email">Email</label>
@@ -87,7 +87,7 @@
                         <label for="password">Password</label>
                         <p><input id="password" name="password" type="password" placeholder="minimum of 8 characters" pattern=".{8,}" required /></p>
                         <!--                input 1-->
-                        <input type="submit" value="Login">
+                        <input type="submit" class="btn" value="Login">
                         <p class="message"> Don't have an account? <a href="#" id="show_register">sign up here</a></p>
                     </form>
                 </section>
@@ -117,7 +117,7 @@
                         <label for="confirm_password">Confirm Password</label>
                         <p><input id="confirm_password" name="confirm_password" type="password" placeholder="minimum of 8 characters" pattern=".{8,}" required /></p>
                         <!--                input 1-->
-                        <input type="submit" value="Create Account">
+                        <input type="submit" class="btn" value="Create Account">
                         <p class="message">Already have an account? <a href="#" id="show_login">Log in</a></p>
                     </form>
                 </section>

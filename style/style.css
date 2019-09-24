@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 body {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
@@ -27,6 +29,16 @@ aside {
 .teacher {
     display: none;
 }
+.btn{
+    cursor: pointer;
+    transition: all 80ms ease-in;
+}
+ .btn:focus{
+    outline: none;
+}
+ .btn:active{
+    transform: scale(0.93);
+}
 
 
 /* Form Styling */
@@ -54,6 +66,10 @@ aside {
     padding: 1%;
     display: block;
     margin: auto;
+    border: none;
+}
+#teacher_signin:focus{
+    outline: none;
 }
 
 #student_signin {
@@ -64,6 +80,10 @@ aside {
     padding: 1%;
     display: block;
     margin: auto;
+    border: none;
+}
+#student_signin:focus{
+    outline: none;
 }
 
 .student h1 {
@@ -89,6 +109,7 @@ aside {
 }
 
 .logon input[type=submit] {
+    display: block;
     width: 40%;
     text-align: center;
     border-radius: 15px;
@@ -97,6 +118,8 @@ aside {
     color: white;
     font-size: 18px;
     align-self: center;
+    border: none;
+    margin: 0 auto;
 }
 
 .message {
@@ -104,8 +127,22 @@ aside {
 }
 
 .slogan {
-    margin: auto !important;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.slogan h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 0.2rem;
+}
+.slogan p{
+    font-style: italic;
+    font-size: 0.9rem;
 }
 
 aside {
